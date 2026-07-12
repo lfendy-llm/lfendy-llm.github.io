@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>lfendy-llm setup</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+      display: flex; justify-content: center; align-items: center;
+      min-height: 100vh; background: #0d1117; color: #e6edf3; padding: 2rem;
+    }
+    .card {
+      background: #161b22; border: 1px solid #30363d; border-radius: 12px;
+      padding: 3rem 2.5rem; max-width: 640px; width: 100%;
+      box-shadow: 0 8px 32px rgba(0,0,0,.4);
+    }
+    h1 { font-size: 1.6rem; margin-bottom: .5rem; }
+    p { color: #8b949e; line-height: 1.6; margin-bottom: 1.5rem; }
+    code {
+      font-family: "SF Mono", "Fira Code", "Fira Mono", Menlo, Consolas, monospace;
+      background: #0d1117; border: 1px solid #30363d; border-radius: 8px;
+      padding: 1rem 1.2rem; display: block; white-space: pre-wrap; word-break: break-all;
+      font-size: .9rem; color: #7ee787; margin-bottom: .75rem; user-select: all;
+    }
+    .note { font-size: .85rem; color: #6e7681; }
+    a { color: #58a6ff; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <h1>lfendy-llm setup</h1>
+    <p>Run this one-liner in your terminal to bootstrap the environment:</p>
+
+    <code>curl -fsSL https://lfendy-llm.github.io/init.sh | bash</code>
+
+    <p class="note">
+      The script is hosted on <a href="https://github.com/lfendy-llm/lfendy-llm.github.io">GitHub</a>.
+      Review <a href="https://github.com/lfendy-llm/lfendy-llm.github.io/blob/main/init.sh">init.sh</a> before running.
+    </p>
+  </div>
+</body>
+</html>
